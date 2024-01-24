@@ -1,0 +1,88 @@
+div{
+    width:100 px;
+    height:100 px;
+    background-color: aqua;
+    transition:width 2s,height 4s;
+    
+}
+div.hover{
+    width: 300 px:
+    height:300 px:
+    border radius:50 px
+        
+        .box{animation:rotate 3s infinite;}
+@keyframes rotate{
+    0%{transform: rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
+.box1{animation:pulse 2s infinite}
+@keyframes pulse{
+    0%,100%{transform:scale(1);}
+    50%{transform:scale(1.2);}
+}
+.box2{animation:slidein 2s infinite;}
+@keyframes slidein{
+    0%{transform:translateX(_50%);}
+    50%{transform:translateX(0);}
+    100%{transform:translateX(50%);}
+}
+.box3{animation:fadein 2s infinite;}
+@keyframes fadein{
+    0%{opacity:0;}
+    50%{opacity:5;}
+    100%{opacity:0%}
+}
+.box4{animation:bounce 2s infinite;}
+@keyframes bounce{
+    0%{transform:translateY(0);}
+    40%{transform:translateY(_20px);}
+    60%{transform:translateY(_10px);}
+}
+.img{
+    1%{opacity:1%}
+}
+    
+    .fa{
+    
+    padding:20px;
+    font-size: 30px;
+    width: 30px;
+    text-align:center;
+    margin: 5px 2px;
+    border-radius:50%;
+    text-decoration:none;
+}
+.fa:hover{
+    opacity:0.8;
+    
+}
+.fa-facebook{
+    background:#3830d9;
+    color:white;
+    
+}
+.fa-twitter{
+    background:#211d21;
+    color:white;
+}
+.fa-linkedin{
+    background:#345a94;
+    color:white
+}
+.fa-instagram{
+    background:#c93066;
+    color:white;
+}
+.fa-snapchat{
+    background:#d3d618;
+    color:white;
+}
+.fa-youtube{
+    background:#e3121d;
+    color:white;
+}
+.fa-google{
+    background:#0f6306;
+    color:white;
+    
+
